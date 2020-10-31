@@ -13,7 +13,7 @@ from skimage.transform import resize
 plt.style.use('fivethirtyeight')
 
 #Load data
-from keras.datasets import cifar10 #This could take a while to download!!! data set is roughly 170 million images
+from keras.datasets import cifar10 #This could take a while to download. data set is roughly 170 million images
 # One tuple for training, one for testing
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
